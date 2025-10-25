@@ -79,9 +79,9 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           title: const Text('오늘은 텀블러 씻었나요?'),
         ),
-        body: const Column(
+        body: Column(
           children: [
-            Expanded(
+            const Expanded(
               child: Stack(
                 children: [
                   WaterRoom(),
@@ -89,11 +89,11 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            HabitTiles(),
-            TodayActionsInput(),
-            SizedBox(height: 32),
-            Text('내일도 뽀송하게 ☀️'),
-            SizedBox(height: 64),
+            HabitTiles(controller: _controller),
+            TodayActionsInput(controller: _controller),
+            const SizedBox(height: 32),
+            const Text('내일도 뽀송하게 ☀️'),
+            const SizedBox(height: 64),
           ],
         ),
       ),

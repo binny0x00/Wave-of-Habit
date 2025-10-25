@@ -32,10 +32,10 @@
 
 ### 5단계: UI와 상태 연결 및 동적 기능 구현
 
-- [ ] `HabitTile`의 체크박스, `TodayActionsInput`의 입력/삭제 버튼 이벤트를 `HomeController`의 메서드와 연결
-- [ ] `HomeController`의 상태 변경에 따라 `WaterRoom`의 `AnimatedContainer`가 작동하도록 구현
-- [ ] `ScoreBanner`의 메시지가 실시간으로 업데이트되도록 연결
-- [ ] 앱 실행 시 날짜를 비교하여 데이터를 초기화하는 로직 연동
+- [x] `HabitTile`의 체크박스, `TodayActionsInput`의 입력/삭제 버튼 이벤트를 `HomeController`의 메서드와 연결
+- [x] `HomeController`의 상태 변경에 따라 `WaterRoom`의 `AnimatedContainer`가 작동하도록 구현
+- [x] `ScoreBanner`의 메시지가 실시간으로 업데이트되도록 연결
+- [x] 앱 실행 시 날짜를 비교하여 데이터를 초기화하는 로직 연동
 
 ### 6단계: 최종 QA 및 디버깅
 
