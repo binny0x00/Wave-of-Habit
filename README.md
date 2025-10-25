@@ -27,6 +27,9 @@ FLUTTER KOREA 2025 Vibe Coding Hackathons 레퍼지토리입니다.
 행동을 하지 않으면 물이 차오르고, 하면 방이 뽀송해짐
 → **나비효과(환경 변화)**를 시각적으로 체험
 
+- 시연 영상
+  https://drive.google.com/drive/folders/1q8FdmFKktJHM-_MO1FuLALbnH-YolGRp?usp=sharing
+
 4. 핵심 기능 (Features)
 분류	기능명	상세 설명	상태 저장
 ✅ 고정 습관	텀블러 씻기, 텀블러 챙기기	하루 2개 고정 태스크. 토글 체크 가능	SharedPreferences
