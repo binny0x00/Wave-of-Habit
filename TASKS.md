@@ -27,8 +27,8 @@
 
 ### 4단계: 기본 UI 레이아웃 및 위젯 구현
 
-- [ ] `feature/home/home_page.dart`: `InheritedModel`과 `HomeController`를 사용하여 기본 화면 구조 빌드
-- [ ] `widgets/`: `WaterRoom`, `ScoreBanner`, `HabitTile`, `TodayActionsInput` 등 각 UI 컴포넌트를 정적(static)인 형태로 구현
+- [x] `feature/home/home_page.dart`: `InheritedModel`과 `HomeController`를 사용하여 기본 화면 구조 빌드
+- [x] `widgets/`: `WaterRoom`, `ScoreBanner`, `HabitTile`, `TodayActionsInput` 등 각 UI 컴포넌트를 정적(static)인 형태로 구현
 
 ### 5단계: UI와 상태 연결 및 동적 기능 구현
 
