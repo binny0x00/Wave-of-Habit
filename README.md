@@ -30,6 +30,8 @@ FLUTTER KOREA 2025 Vibe Coding Hackathons 레퍼지토리입니다.
 - 시연 영상
   https://drive.google.com/drive/folders/1q8FdmFKktJHM-_MO1FuLALbnH-YolGRp?usp=sharing
 
+<img src="https://github.com/user-attachments/assets/2679e304-bbe7-464c-8d68-a2e6c48474b7" alt="wave-of-habit-demo" width="300"/>
+
 4. 핵심 기능 (Features)
 분류	기능명	상세 설명	상태 저장
 ✅ 고정 습관	텀블러 씻기, 텀블러 챙기기	하루 2개 고정 태스크. 토글 체크 가능	SharedPreferences
