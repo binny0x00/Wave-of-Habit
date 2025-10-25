@@ -23,7 +23,7 @@
 
 ### 3단계: 상태 및 비즈니스 로직 구현
 
-- [ ] `feature/home/home_controller.dart`: `TodayModel`을 상태로 관리하고, `PrefsRepository`와 상호작용하며 점수 계산 등 비즈니스 로직을 처리하는 컨트롤러 구현
+- [x] `feature/home/home_controller.dart`: `TodayModel`을 상태로 관리하고, `PrefsRepository`와 상호작용하며 점수 계산 등 비즈니스 로직을 처리하는 컨트롤러 구현
 
 ### 4단계: 기본 UI 레이아웃 및 위젯 구현
 
