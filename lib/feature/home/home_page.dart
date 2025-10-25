@@ -68,7 +68,6 @@ class _HomePageState extends State<HomePage> {
         setState(() {});
       },
     );
-    _controller.loadTodayData();
   }
 
   @override

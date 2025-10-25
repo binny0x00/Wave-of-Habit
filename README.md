@@ -43,3 +43,17 @@ FLUTTER KOREA 2025 Vibe Coding Hackathons 레퍼지토리입니다.
 2	둘 다 or 추가 실천 1개 포함	0.2	“좋아요! 오늘은 뽀송한 지구 🌍”
 3	세 가지 이상 실천	0.1	“오늘은 지구가 웃어요 ☀️”
 4	만점(씻기+챙기기+2실천)	0.05	“완벽해요! 뽀송지수 만점 ☀️”
+
+## Troubleshooting/Issues Encountered
+
+### 1. `_todayModel` not initialized in `HomeController`
+
+**Problem:** The `_todayModel` field in `HomeController` was declared as `late` but was not initialized in the constructor. This could lead to a runtime error if `_todayModel` was accessed before `loadTodayData()` completed.
+
+**Solution:** Initialized `_todayModel` with a default `TodayModel(date: '')` in the `HomeController`'s constructor. Also, made `loadTodayData()` private and called it from the constructor to ensure proper initialization.
+
+### 2. `VoidCallback` not recognized in `home_controller.dart`
+
+**Problem:** The `VoidCallback` type was not recognized in `home_controller.dart`, resulting in a compilation error.
+
+**Solution:** Added `import 'package:flutter/foundation.dart';` to `home_controller.dart` to correctly import the `VoidCallback` definition.

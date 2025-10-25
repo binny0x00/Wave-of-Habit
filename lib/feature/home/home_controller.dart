@@ -1,20 +1,23 @@
 
+import 'package:flutter/foundation.dart';
 import 'package:wave_of_habit/data/prefs_repository.dart';
 import 'package:wave_of_habit/feature/home/home_state.dart';
 
 class HomeController {
   HomeController({
     required this.onStateChanged,
-  });
+  }) : _todayModel = TodayModel(date: '') { // Initialize with a default TodayModel
+    _loadTodayData(); // Call the private load method
+  }
 
   final VoidCallback onStateChanged;
 
-  late TodayModel _todayModel;
+  TodayModel _todayModel;
   TodayModel get todayModel => _todayModel;
 
   final _prefsRepository = PrefsRepository.instance;
 
-  Future<void> loadTodayData() async {
+  Future<void> _loadTodayData() async {
     _todayModel = await _prefsRepository.loadTodayData();
     onStateChanged();
   }
