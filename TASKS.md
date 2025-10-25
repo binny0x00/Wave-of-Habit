@@ -18,8 +18,8 @@
 
 ### 2단계: 데이터 계층 구현
 
-- [ ] `feature/home/home_state.dart`: `TodayModel` 클래스 정의 (`fromJson`, `toJson` 포함)
-- [ ] `data/prefs_repository.dart`: `SharedPreferences`를 사용하는 저장소 클래스 구현 (load, save, reset 로직)
+- [x] `feature/home/home_state.dart`: `TodayModel` 클래스 정의 (`fromJson`, `toJson` 포함)
+- [x] `data/prefs_repository.dart`: `SharedPreferences`를 사용하는 저장소 클래스 구현 (load, save, reset 로직)
 
 ### 3단계: 상태 및 비즈니스 로직 구현
 
