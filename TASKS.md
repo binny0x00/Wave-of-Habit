@@ -11,10 +11,10 @@
 
 ### 1단계: 프로젝트 설정 및 코어 로직
 
-- [ ] Flutter 프로젝트 생성 (`flutter create`)
-- [ ] `shared_preferences` 의존성 추가 (`pubspec.yaml`)
-- [ ] `core/date.dart`: 날짜 비교 유틸리티 함수 구현
-- [ ] `constants.dart`: 점수, 메시지 등 상수 정의
+- [x] Flutter 프로젝트 생성 (`flutter create`)
+- [x] `shared_preferences` 의존성 추가 (`pubspec.yaml`)
+- [x] `core/date.dart`: 날짜 비교 유틸리티 함수 구현
+- [x] `constants.dart`: 점수, 메시지 등 상수 정의
 
 ### 2단계: 데이터 계층 구현
 
